@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Edit your AngelList Profile : Angel list talent</title> 
+    <link rel="stylesheet" href="css/easyframer.css"> 
+    <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css"> 
+    <link  rel="stylesheet" href="css/style.css"> 
+</head> 
+<body>
+    <header>
+        <section class="bg-input-github w-100 bg-header header">
+            <!-- Wrap the contents within header-->
+            <div class="framer">
+                <!-- Align the contents taking note of mobile first design--> 
+                <div class="frame justify-content-between">
+                    <!--Brand--> 
+                    
+                    <a href="#" class="d-sm-hide">
+                        <img src="assets/images/logo.png" class="w-100 w-15" alt="Our logo">
+                    </a>
+                    <!--Navigation--> 
+                    <nav class="main-navigation d-sm-hide">
+                        <a href="#">
+                            <i class="fa fa-bell"></i>
+                        </a> 
+                        <a href="#">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <section class="has-dropdown d-sm-hide">
+                            <a href="#" class="user-link"> 
+                                <i class="fa fa-user"></i> 
+                                <span>Adeleke Bright</span> 
+                            </a> 
+                            <div class="is-drop-content">
+                                <div class="frame justify-content-between border-b-faint pad-10 m-b-1">
+                                    <div>
+                                        <p class="m-b-2">Adeleke Bright</p>
+                                        <small>Open to hire</small>
+                                    </div>
+                                    <img class="w-100 w-15 img-circle" src="assets/images/logo.png">
+                                </div>
+                                
+                                <div class="anchor-block border-b-faint pad-10 m-b-1">
+                                <h5 class="faint-text">Persona</h5> 
+                                    <a href="#">Edit Profile</a> 
+                                    <a href="#">Assessments</a> 
+                                    <a href="#">Settings</a> 
+                                </div>  
+                                <div class="anchor-block">
+                                    <a href="#" class="faint-text">Help</a>
+                                    <a href="#" class="faint-text">Logout</a>
+                                </div>
+
+                                <a href="#" class="button no-border bg-blue white-text center-text job-link">Post a Job</a>
+                            </div>
+                        </section>
+                        
+                    </nav> 
+                    <!-- Mobile Layout-->
+                    <div class="fr-6">
+                        <a href="#" class="w-15 d-md-hide">
+                            <img src="assets/images/logo.png" class="w-100" alt="Our logo">
+                        </a>
+                    </div>
+                    <div class="d-md-hide mobile-toggle pad-top-15">
+                        <button class="mobile-toggler relative change-toggle pad-top-15" id="mobile-toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span> 
+                        </button> 
+                        <section class="mobile-navigations d-md-hide d-nothing out-of-view"> 
+                            <a href="#" class="">Profile</a> <!--Profile is a dropdown-->
+                            <a href="#" class="">Jobs</a> 
+                            <a href="#" class="">Applied</a>
+                            <a href="#" class="">Applied</a>
+                            <a href="#" class="">Message</a>
+                            <a href="#" class="">Assessments</a>
+                            <section class="has-dropdown">
+                                <a href="#" class="tabber">
+                                    <spa> Notifications </spa>
+                                    <i class="fa fa-caret-down fa fa-chevron-down"></i> 
+                                </a>
+                                <div class="tab-content">
+                                        <a href="#">Front End</a>
+                                        <a href="#">Front End</a>
+                                        <a href="#">Front End</a>
+                                </div> 
+                            </section>
+                            <!--Search--> 
+                            <a href="#" class="">Logout</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header> 
+    <section>
+        <div div class="framer ">
+            <div class="frame ">
+                <!--Sidebar -->
+                <aside class="fr-md-2 d-sm-hide"> 
+                    <div class="sticky-again">
+                    <a href="#" >
+                        <i class="fa fa-briefcase"></i> 
+                        <p>jobs</p>
+                    </a> 
+                    <a href="#" >
+                        <i class="fa fa-file"></i> 
+                        <p>Applied</p>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-comment"></i> 
+                        <p>Message</p>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-pencil"></i> 
+                        <p>Assessments</p>
+                    </a>
+                </div>
+                </aside> 
+                <!--main content-->
+                <main class="pad-top fr-md-8">
+                    <div class="sticky-again">
+                      <h2 class="m-b-2 edit-text">Setup and Write Exam</h2> 
+                    </div>
+                    <!--The tabpane and the rest section -->
+                    <div class="tabs-panel">
+                        <a href="#" class="tab-reveal active-link">Question</a> 
+                        <a href="#" class="tab-reveal">Exams</a>
+                        <a href="#" class="tab-reveal">Result</a>
+                    </div> 
+                    <div class="">
+                        <div>
+                            <h2>You have not created any exams yet</h2>
+                            <p>Create an exam and add questions to them to get started</p> 
+                            <button class="button no-border no-outline bg-blue white-text radius-5">
+                                Get Started
+                            </button>
+                        </div>
+                        <div class="frame">
+                            <!-- <div class="fr-md-3"></div>  -->
+                            <div class="fr-md-6">
+                                <form>
+                                    <label for="exam">Select Exam</label> 
+                                    <select class="input input-border-faint pad-10" id="exam">
+                                        <option value="HTML">HTML</option>
+                                        <option value="CSS">CSS</option>
+                                        <option value="JS">JS</option>
+                                        <option value="MONGO">MONGO</option>
+                                    </select>
+                                    <label for="Question">Question</label> 
+                                    <textarea class="input input-border-faint pad-10" id="question">
+
+                                    </textarea>
+                                    <label for="option">Option</label> 
+                                    <input class="input input-border-faint pad-10" id="option"> 
+                                    <div>
+                                        <button class="button no-border no-outline bg-blue white-text m-r-1">
+                                            Add and continue
+                                        </button>
+                                        <button class="button no-border no-outline bg-green white-text m-r-1">
+                                            Add and Save
+                                        </button>
+                                        <button class="button no-border no-outline bg-parent bg-red white-text">
+                                            Exit
+                                        </button>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                            <div class="fr-md-3"></div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+    </section>
+</body>
+</html>
